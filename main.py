@@ -26,7 +26,7 @@ connection = psycopg2.connect(user="postgres",
                                   database="cinema")
 
 cursor = connection.cursor()
-comp(cursor)
+
 
 
     
